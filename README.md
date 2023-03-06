@@ -16,7 +16,7 @@ This will build a Docker Image for [OSTicket](https://www.osticket.org) - An ope
 
 ## Maintainer
 
-- [Dave Conroy](https://github.com/tiredofit)
+- [Darren Carter](https://github.com/dgcartersa)
 
 ## Table of Contents
 
