@@ -1,4 +1,4 @@
-# github.com/tiredofit/docker-osticket
+# github.com/dgcartersa/docker-osticket
 
 [![GitHub release](https://img.shields.io/github/v/tag/tiredofit/docker-osticket?style=flat-square)](https://github.com/tiredofit/docker-osticket/releases/latest)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/tiredofit/docker-osticketmain.yml?branch=main&style=flat-square)](https://github.com/tiredofit/docker-osticket.git/actions)
