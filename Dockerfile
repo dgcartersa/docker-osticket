@@ -1,11 +1,11 @@
 FROM docker.io/tiredofit/nginx-php-fpm:debian-7.4-bullseye
-LABEL maintainer="Dave Conroy (github.com/tiredofit)"
+LABEL maintainer="Darren Carter (github.com/dgcartersa)"
 
 ### Default Runtime Environment Variables
-ENV OSTICKET_VERSION=v1.15.4 \
+ENV OSTICKET_VERSION=v1.17.2 \
     DB_PREFIX=ost_ \
     DB_PORT=3306 \
-    CRON_INTERVAL=10 \
+    CRON_INTERVAL=5 \
     MEMCACHE_PORT=11211 \
     PHP_ENABLE_CURL=TRUE \
     PHP_ENABLE_FILEINFO=TRUE \
@@ -18,8 +18,8 @@ ENV OSTICKET_VERSION=v1.15.4 \
     NGINX_SITE_ENABLED=osticket \
     NGINX_WEBROOT=/www/osticket \
     ZABBIX_AGENT_TYPE=classic \
-    IMAGE_NAME="tiredofit/osticket" \
-    IMAGE_REPO_URL="https://github.com/tiredofit/docker-osticket/"
+    IMAGE_NAME="dgcartersa/docker-osticket" \
+    IMAGE_REPO_URL="https://github.com/dgcartersa/docker-osticket/"
 
 ### Dependency Installation
 RUN set -x && \
